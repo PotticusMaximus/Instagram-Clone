@@ -1,6 +1,5 @@
 * {
   background-color: white;
-  font-family: Dscript;
 }
 @font-face {
   font-family: Dscript;
@@ -8,6 +7,7 @@
 }
 
 main {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -17,11 +17,12 @@ footer {
 }
 
 .login-box {
+  margin-bottom: 20px;
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 350px;
   border: 1px solid lightgrey;
 }
 
@@ -32,10 +33,40 @@ footer {
 }
 
 h1 {
+  font-family: Dscript;
   margin-top: 40px;
   font-size: 60px;
 }
 
+#h3noacc {
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
 header {
   margin-bottom: 100px;
+}
+
+.noaccbox {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  border: 1px solid lightgrey;
+}
+
+.appIMG {
+  width: 153px;
+  height: 45px;
+}
+
+.getapp {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
 }
