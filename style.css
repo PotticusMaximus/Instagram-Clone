@@ -6,3 +6,36 @@
   font-family: Dscript;
   src: url(DancingScript-VariableFont_wght.ttf);
 }
+
+main {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+footer {
+}
+
+.login-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border: 1px solid lightgrey;
+}
+
+.landingIMG {
+  width: 500px;
+  height: 500px;
+  margin-right: 20px;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 60px;
+}
+
+header {
+  margin-bottom: 100px;
+}
