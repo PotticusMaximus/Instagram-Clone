@@ -1,0 +1,8 @@
+* {
+  background-color: white;
+  font-family: Dscript;
+}
+@font-face {
+  font-family: Dscript;
+  src: url(DancingScript-VariableFont_wght.ttf);
+}
